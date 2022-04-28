@@ -5,9 +5,7 @@ import pydeck as pdk
 import plotly.express as px
 
 DATE_TIME = "date/time"
-DATA_URL = (
-    ""
-)
+DATA_URL = "vehicle crashes.csv"
 
 st.title("Motor Vehicle Collisions in New York City")
 st.markdown("This is a Streamlit web application that can be used "
